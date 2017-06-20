@@ -24,6 +24,14 @@
 	<string name="calculate">Calculate</string>
 	<string name="male">Male</string>
 	<string name="female">Female</string>
+	<string name="add_note">Add Note</string>
+	<string name="notes_list">Notes List</string>
+	<string name="note_title">Welcome Note</string>
+	<string name="note_date">12-15-2017</string>
+	<string name="title_note_here">Title Note Here</string>
+	<string name="save">Save</string>
+	<string name="update">Update</string>
+	<string name="note_view">Note View</string>
 	<string-array name="adult_guidelines">
 		<item>Aortic Dissection</item>
 	    <item>Asthma - Adult</item>

@@ -50,6 +50,9 @@ C:\Users\Jose Ricardo\documents\visual studio 2017\Projects\Airlink\Airlink\obj\
 C:\Users\Jose Ricardo\documents\visual studio 2017\Projects\Airlink\Airlink\obj\Debug\res\layout\pdf_item.xml
 C:\Users\Jose Ricardo\documents\visual studio 2017\Projects\Airlink\Airlink\obj\Debug\res\layout\pdf_items_list.xml
 C:\Users\Jose Ricardo\documents\visual studio 2017\Projects\Airlink\Airlink\obj\Debug\res\layout\pdfviewer.xml
+C:\Users\Jose Ricardo\documents\visual studio 2017\Projects\Airlink\Airlink\obj\Debug\res\layout\notes_items_list.xml
+C:\Users\Jose Ricardo\documents\visual studio 2017\Projects\Airlink\Airlink\obj\Debug\res\layout\note_item.xml
+C:\Users\Jose Ricardo\documents\visual studio 2017\Projects\Airlink\Airlink\obj\Debug\res\layout\note_details.xml
 C:\Users\Jose Ricardo\documents\visual studio 2017\Projects\Airlink\Airlink\obj\Debug\Airlink.csprojResolveAssemblyReference.cache
 C:\Users\Jose Ricardo\documents\visual studio 2017\Projects\Airlink\Airlink\bin\Debug\Airlink.dll.mdb
 C:\Users\Jose Ricardo\documents\visual studio 2017\Projects\Airlink\Airlink\bin\Debug\Java.Interop.dll.mdb

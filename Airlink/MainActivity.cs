@@ -6,6 +6,7 @@ using Android.Widget;
 using Android.OS;
 using Android.Support.V7.App;
 using Toolbar = Android.Support.V7.Widget.Toolbar;
+using Android.Preferences;
 
 namespace Airlink
 {
@@ -16,8 +17,17 @@ namespace Airlink
 		{
 			base.OnCreate(bundle);
 
-			// Set our view from the "main" layout resource
-			SetContentView (Resource.Layout.Main);
+            ISharedPreferences prefs = PreferenceManager.GetDefaultSharedPreferences(this);
+            
+            ISharedPreferencesEditor editor;
+
+            editor = prefs.Edit();
+
+            editor.Remove("notes_list");
+            editor.Apply();
+
+            // Set our view from the "main" layout resource
+            SetContentView (Resource.Layout.Main);
             Toolbar toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
             SetSupportActionBar(toolbar);
             SupportActionBar.Title = "";
@@ -48,6 +58,13 @@ namespace Airlink
             {
                 Intent calculations = new Intent(this, typeof(Calculations));
                 StartActivity(calculations);
+
+            };
+
+            personal_notes_button.Click += (object sender, EventArgs e) =>
+            {
+                Intent personal_notes = new Intent(this, typeof(NotesListItems));
+                StartActivity(personal_notes);
 
             };
 

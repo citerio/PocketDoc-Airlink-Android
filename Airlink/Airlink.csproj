@@ -101,6 +101,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Calculations.cs" />
+    <Compile Include="Note.cs" />
+    <Compile Include="NoteAdapter.cs" />
+    <Compile Include="NoteDetails.cs" />
+    <Compile Include="NotesListItems.cs" />
     <Compile Include="Pdf.cs" />
     <Compile Include="PdfAdapter.cs" />
     <Compile Include="PDFListItems.cs" />
@@ -410,6 +414,15 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\PDFViewer.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\notes_items_list.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\note_item.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\note_details.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
