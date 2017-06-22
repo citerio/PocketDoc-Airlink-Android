@@ -37,5 +37,46 @@
 	    <item>Asthma - Adult</item>
 	    <item>Anaphylaxis Adult</item>
 	    <item>Blood protocol</item>
-	</string-array>	
+	</string-array>
+	<string-array name="medicines_list">
+		<item>
+			"			
+			{
+			'title':'Nipride gtt',
+			'dose':'Dose: 0.3- 10 mcg/kg/min infusion',
+			'info':'Also known as Nitroprusside, used to reduce pressure, aortic dissection etc.
+					dose &gt; 4mcg/kg/min can cause cyanide toxicity within 3hrs
+					-          if a dose of 10mcg/kg/min is required for &gt; 10min, STOP and switch to alternate agent'
+			}
+			"
+		</item>
+		<item>
+			"			
+			{
+			'title':'Epinephrine gtt',
+			'dose':'Dose: 0.1 - 0.5 mcg/kg/min',
+			'info':'Titrated to effect,Multiple uses include treatment for bradycardia, anaphylaxis, hypotension, ACLS'
+			}
+			"
+		</item>
+		<item>
+			"
+			{
+			'title':'Dobutamine',
+			'dose':'Dose: start 1-20 mcg/kg/min',
+			'info':'Max is estimated at 20mcg/kg/min, but may cause hypotension. Used to improve cardiac contractility'
+			}
+			"
+		</item>
+		<item>
+			"
+			{
+			'title':'Diltiazem gtt',
+			'dose':'Dose: bolus 10-20 mg then 5-15 mg/hr gtt',
+			'info':'Better as a rate control drug but may be used for hypertension'
+			}
+			"
+		</item>
+	</string-array>
+	
 </resources>

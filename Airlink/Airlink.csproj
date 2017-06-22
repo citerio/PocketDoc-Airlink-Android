@@ -101,6 +101,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Calculations.cs" />
+    <Compile Include="Medicine.cs" />
+    <Compile Include="MedicineAdapter.cs" />
+    <Compile Include="MedicineDetails.cs" />
+    <Compile Include="MedicineListItems.cs" />
     <Compile Include="Note.cs" />
     <Compile Include="NoteAdapter.cs" />
     <Compile Include="NoteDetails.cs" />
@@ -423,6 +427,15 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\note_details.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\medicine.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\medicines_list.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\medicine_details.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

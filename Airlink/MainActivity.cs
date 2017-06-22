@@ -68,6 +68,13 @@ namespace Airlink
 
             };
 
+            reference_medications_button.Click += (object sender, EventArgs e) =>
+            {
+                Intent reference_medications = new Intent(this, typeof(MedicineListItems));
+                StartActivity(reference_medications);
+
+            };
+
 
 
         }

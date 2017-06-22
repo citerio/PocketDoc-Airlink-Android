@@ -1,1 +1,35 @@
-<resources><string name="Hello">Hello World, Click Me!</string><string name="ApplicationName">Airlink</string><string name="call_rod">Call Rod</string><string name="call_helenka">Call Helenka</string><string name="reference_guidelines">Reference Guidelines</string><string name="personal_notes">Personal Notes</string><string name="reference_medications">Reference Medications</string><string name="calculations">Calculations</string><string name="adult_guidelines">Adult Guidelines</string><string name="pediatric_guidelines">Pediatric Guidelines</string><string name="ob_guidelines">OB Guidelines</string><string name="trauma_guidelines">Trauma Guidelines</string><string name="procedures">Procedures</string><string name="suggestions">Suggestions</string><string name="ideal_body_weight">Ideal Body Weight</string><string name="ideal_vt">Ideal Vt (6-8 cc/kg)</string><string name="ketamine_rsi_dose">Ketamine RSI Dose</string><string name="etomidate_rsi_dose">Etomidate RSI Dose</string><string name="rocuronium_rsi_dose">Rocuronium RSI Dose</string><string name="succi_rsi_dose">Succinylcholine RSI Dose</string><string name="height_in_inches">Height in Inches</string><string name="calculate">Calculate</string><string name="male">Male</string><string name="female">Female</string><string name="add_note">Add Note</string><string name="notes_list">Notes List</string><string name="note_title">Welcome Note</string><string name="note_date">12-15-2017</string><string name="title_note_here">Title Note Here</string><string name="save">Save</string><string name="update">Update</string><string name="note_view">Note View</string><string-array name="adult_guidelines"><item>Aortic Dissection</item><item>Asthma - Adult</item><item>Anaphylaxis Adult</item><item>Blood protocol</item></string-array></resources>
+<resources><string name="Hello">Hello World, Click Me!</string><string name="ApplicationName">Airlink</string><string name="call_rod">Call Rod</string><string name="call_helenka">Call Helenka</string><string name="reference_guidelines">Reference Guidelines</string><string name="personal_notes">Personal Notes</string><string name="reference_medications">Reference Medications</string><string name="calculations">Calculations</string><string name="adult_guidelines">Adult Guidelines</string><string name="pediatric_guidelines">Pediatric Guidelines</string><string name="ob_guidelines">OB Guidelines</string><string name="trauma_guidelines">Trauma Guidelines</string><string name="procedures">Procedures</string><string name="suggestions">Suggestions</string><string name="ideal_body_weight">Ideal Body Weight</string><string name="ideal_vt">Ideal Vt (6-8 cc/kg)</string><string name="ketamine_rsi_dose">Ketamine RSI Dose</string><string name="etomidate_rsi_dose">Etomidate RSI Dose</string><string name="rocuronium_rsi_dose">Rocuronium RSI Dose</string><string name="succi_rsi_dose">Succinylcholine RSI Dose</string><string name="height_in_inches">Height in Inches</string><string name="calculate">Calculate</string><string name="male">Male</string><string name="female">Female</string><string name="add_note">Add Note</string><string name="notes_list">Notes List</string><string name="note_title">Welcome Note</string><string name="note_date">12-15-2017</string><string name="title_note_here">Title Note Here</string><string name="save">Save</string><string name="update">Update</string><string name="note_view">Note View</string><string-array name="adult_guidelines"><item>Aortic Dissection</item><item>Asthma - Adult</item><item>Anaphylaxis Adult</item><item>Blood protocol</item></string-array><string-array name="medicines_list"><item>
+			"			
+			{
+			'title':'Nipride gtt',
+			'dose':'Dose: 0.3- 10 mcg/kg/min infusion',
+			'info':'Also known as Nitroprusside, used to reduce pressure, aortic dissection etc.
+					dose &gt; 4mcg/kg/min can cause cyanide toxicity within 3hrs
+					-          if a dose of 10mcg/kg/min is required for &gt; 10min, STOP and switch to alternate agent'
+			}
+			"
+		</item><item>
+			"			
+			{
+			'title':'Epinephrine gtt',
+			'dose':'Dose: 0.1 - 0.5 mcg/kg/min',
+			'info':'Titrated to effect,Multiple uses include treatment for bradycardia, anaphylaxis, hypotension, ACLS'
+			}
+			"
+		</item><item>
+			"
+			{
+			'title':'Dobutamine',
+			'dose':'Dose: start 1-20 mcg/kg/min',
+			'info':'Max is estimated at 20mcg/kg/min, but may cause hypotension. Used to improve cardiac contractility'
+			}
+			"
+		</item><item>
+			"
+			{
+			'title':'Diltiazem gtt',
+			'dose':'Dose: bolus 10-20 mg then 5-15 mg/hr gtt',
+			'info':'Better as a rate control drug but may be used for hypertension'
+			}
+			"
+		</item></string-array></resources>
