@@ -1937,7 +1937,7 @@ containing a value of this type.
         public static final int edit_query=0x7f06004a;
         public static final int end=0x7f06001c;
         public static final int end_padder=0x7f06008a;
-        public static final int etomidate_rsi_dose_button=0x7f06005d;
+        public static final int etomidate_rsi_dose=0x7f06005d;
         public static final int expand_activities_button=0x7f060029;
         public static final int expanded_menu=0x7f06003e;
         public static final int height_in_inches_input=0x7f060058;
@@ -1945,13 +1945,13 @@ containing a value of this type.
         public static final int homeAsUp=0x7f06000e;
         public static final int icon=0x7f06002d;
         public static final int icon_group=0x7f060085;
-        public static final int ideal_body_weight_button=0x7f06005a;
-        public static final int ideal_vt_button=0x7f06005b;
+        public static final int ideal_body_weight=0x7f06005a;
+        public static final int ideal_vt=0x7f06005b;
         public static final int ifRoom=0x7f060020;
         public static final int image=0x7f06002a;
         public static final int info=0x7f060081;
         public static final int item_touch_helper_previous_elevation=0x7f060000;
-        public static final int ketamine_rsi_dose_button=0x7f06005c;
+        public static final int ketamine_rsi_dose=0x7f06005c;
         public static final int line1=0x7f060086;
         public static final int line3=0x7f060088;
         public static final int listMode=0x7f06000a;
@@ -1990,7 +1990,7 @@ containing a value of this type.
         public static final int reference_medications_button=0x7f060065;
         public static final int right_icon=0x7f060082;
         public static final int right_side=0x7f06007e;
-        public static final int rocuronium_rsi_dose_button=0x7f06005e;
+        public static final int rocuronium_rsi_dose=0x7f06005e;
         public static final int save_update_button=0x7f06006d;
         public static final int screen=0x7f060016;
         public static final int scrollIndicatorDown=0x7f060037;
@@ -2019,7 +2019,7 @@ containing a value of this type.
         public static final int status_bar_latest_event_content=0x7f060079;
         public static final int submenuarrow=0x7f060042;
         public static final int submit_area=0x7f060053;
-        public static final int succi_rsi_dose_button=0x7f06005f;
+        public static final int succi_rsi_dose=0x7f06005f;
         public static final int suggestions_button=0x7f060067;
         public static final int switch_gender=0x7f060059;
         public static final int tabMode=0x7f06000c;

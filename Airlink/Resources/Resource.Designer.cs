@@ -1896,7 +1896,7 @@ namespace Airlink
 			public const int end_padder = 2131099786;
 			
 			// aapt resource value: 0x7f06005d
-			public const int etomidate_rsi_dose_button = 2131099741;
+			public const int etomidate_rsi_dose = 2131099741;
 			
 			// aapt resource value: 0x7f060029
 			public const int expand_activities_button = 2131099689;
@@ -1920,10 +1920,10 @@ namespace Airlink
 			public const int icon_group = 2131099781;
 			
 			// aapt resource value: 0x7f06005a
-			public const int ideal_body_weight_button = 2131099738;
+			public const int ideal_body_weight = 2131099738;
 			
 			// aapt resource value: 0x7f06005b
-			public const int ideal_vt_button = 2131099739;
+			public const int ideal_vt = 2131099739;
 			
 			// aapt resource value: 0x7f060020
 			public const int ifRoom = 2131099680;
@@ -1938,7 +1938,7 @@ namespace Airlink
 			public const int item_touch_helper_previous_elevation = 2131099648;
 			
 			// aapt resource value: 0x7f06005c
-			public const int ketamine_rsi_dose_button = 2131099740;
+			public const int ketamine_rsi_dose = 2131099740;
 			
 			// aapt resource value: 0x7f060086
 			public const int line1 = 2131099782;
@@ -2055,7 +2055,7 @@ namespace Airlink
 			public const int right_side = 2131099774;
 			
 			// aapt resource value: 0x7f06005e
-			public const int rocuronium_rsi_dose_button = 2131099742;
+			public const int rocuronium_rsi_dose = 2131099742;
 			
 			// aapt resource value: 0x7f06006d
 			public const int save_update_button = 2131099757;
@@ -2142,7 +2142,7 @@ namespace Airlink
 			public const int submit_area = 2131099731;
 			
 			// aapt resource value: 0x7f06005f
-			public const int succi_rsi_dose_button = 2131099743;
+			public const int succi_rsi_dose = 2131099743;
 			
 			// aapt resource value: 0x7f060067
 			public const int suggestions_button = 2131099751;

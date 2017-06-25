@@ -68,13 +68,15 @@ namespace Airlink
         public void saveOrupdateNote() {
 
 
-            if (save_update_button.Text.Equals("Save")) {
+            if (note_title_input.Equals("")) {
+
+                setNotification("Error", "Give your note a title.");
+
+            }else if (save_update_button.Text.Equals("Save")) {
                 
                 saveNote(note_title_input.Text, note_description_input.Text);
 
-            }
-
-            if (save_update_button.Text.Equals("Update"))
+            }else if (save_update_button.Text.Equals("Update"))
             {
 
                 updateNote(note_title_input.Text, note_description_input.Text);
@@ -213,6 +215,7 @@ namespace Airlink
                 save_update_button.Background = Resources.GetDrawable(Resource.Color.colorBlueGloss);
                 save_update_button.Text = "Update";
                 reloadNotesList();
+                setNotification("Updated", "Your note was updated!");
 
 
             }
@@ -231,6 +234,20 @@ namespace Airlink
             Intent notes_list = new Intent("notes_list");
             SendBroadcast(notes_list);
 
+        }
+
+        public void setNotification(string title, string message)
+        {
+
+            var builder = new Android.Support.V7.App.AlertDialog.Builder(this);
+            builder.SetTitle(title);
+            builder.SetMessage(message);
+            builder.SetCancelable(true);
+            builder.SetPositiveButton("OK", (senderAlert, args) => {
+
+            });
+
+            builder.Show();
         }
     }
 }

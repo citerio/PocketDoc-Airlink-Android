@@ -46,54 +46,131 @@
                 android:button="@drawable/custom_switch"
                 android:background="@android:color/transparent" />
         </LinearLayout>
-        <TextView
-            android:text="@string/ideal_body_weight"
-            android:id="@+id/ideal_body_weight_button"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingTop="15dp"
-            android:textSize="16sp"
-            android:textColor="@color/colorBlack" />
-        <TextView
-            android:text="@string/ideal_vt"
-            android:id="@+id/ideal_vt_button"
-            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp">
+            <TextView
+                android:text="@string/ideal_body_weight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:textColor="@color/colorBlack" />
+            <TextView
+                android:text="@string/ideal_body_weight"
+                android:id="@+id/ideal_body_weight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@color/colorBlack" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingTop="15dp"
-            android:textSize="16sp"
-            android:textColor="@color/colorBlack" />
-        <TextView
-            android:text="@string/ketamine_rsi_dose"
-            android:id="@+id/ketamine_rsi_dose_button"
-            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp">
+            <TextView
+                android:text="@string/ideal_vt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:textColor="@color/colorBlack" />
+            <TextView
+                android:text="@string/ideal_vt"
+                android:id="@+id/ideal_vt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="15dp"
+                android:textSize="16sp"
+                android:textColor="@color/colorBlack" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingTop="15dp"
-            android:textSize="16sp"
-            android:textColor="@color/colorBlack" />
-        <TextView
-            android:text="@string/etomidate_rsi_dose"
-            android:id="@+id/etomidate_rsi_dose_button"
-            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp">
+            <TextView
+                android:text="@string/ketamine_rsi_dose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:textColor="@color/colorBlack" />
+            <TextView
+                android:text="@string/ketamine_rsi_dose"
+                android:id="@+id/ketamine_rsi_dose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="15dp"
+                android:textSize="16sp"
+                android:textColor="@color/colorBlack" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingTop="15dp"
-            android:textSize="16sp"
-            android:textColor="@color/colorBlack" />
-        <TextView
-            android:text="@string/rocuronium_rsi_dose"
-            android:id="@+id/rocuronium_rsi_dose_button"
-            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp">
+            <TextView
+                android:text="@string/etomidate_rsi_dose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:textColor="@color/colorBlack" />
+            <TextView
+                android:text="@string/etomidate_rsi_dose"
+                android:id="@+id/etomidate_rsi_dose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="15dp"
+                android:textSize="16sp"
+                android:textColor="@color/colorBlack" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingTop="15dp"
-            android:textSize="16sp"
-            android:textColor="@color/colorBlack" />
-        <TextView
-            android:text="@string/succi_rsi_dose"
-            android:id="@+id/succi_rsi_dose_button"
-            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp">
+            <TextView
+                android:text="@string/rocuronium_rsi_dose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:textColor="@color/colorBlack" />
+            <TextView
+                android:text="@string/rocuronium_rsi_dose"
+                android:id="@+id/rocuronium_rsi_dose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="15dp"
+                android:textSize="16sp"
+                android:textColor="@color/colorBlack" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingTop="15dp"
-            android:textSize="16sp"
-            android:textColor="@color/colorBlack" />
+            android:orientation="horizontal"
+            android:paddingTop="10dp">
+            <TextView
+                android:text="@string/succi_rsi_dose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:textColor="@color/colorBlack" />
+            <TextView
+                android:text="@string/succi_rsi_dose"
+                android:id="@+id/succi_rsi_dose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="15dp"
+                android:textSize="16sp"
+                android:textColor="@color/colorBlack" />
+        </LinearLayout>
         <Button
             android:id="@+id/calculate_button"
             android:layout_width="wrap_content"
