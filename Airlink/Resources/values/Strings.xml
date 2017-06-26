@@ -29,6 +29,7 @@
 	<string name="note_title">Welcome Note</string>
 	<string name="note_date">12-15-2017</string>
 	<string name="title_note_here">Title Note Here</string>
+	<string name="describe_note_here">Describe Note Here</string>
 	<string name="save">Save</string>
 	<string name="update">Update</string>
 	<string name="note_view">Note View</string>
@@ -37,6 +38,97 @@
 	    <item>Asthma - Adult</item>
 	    <item>Anaphylaxis Adult</item>
 	    <item>Blood protocol</item>
+		<item>CVA Stroke one</item>
+		<item>Drowning</item>
+		<item>Frostbite</item>
+		<item>General Overdose</item>
+		<item>Hyperkalemia protocol</item>
+		<item>Acute Coronary Syndrome</item>
+		<item>Hypertension not related to pregnancy</item>
+		<item>Hyperthermia</item>
+		<item>Hypothermia</item>
+		<item>ICH</item>
+		<item>Insulin</item>
+		<item>Narcotics and Opiates</item>
+		<item>Platelets During Transport</item>
+		<item>Rhabdomyolysis</item>
+		<item>Sedation guideline</item>
+		<item>Seizure  Adult</item>
+		<item>Adult Sepsis</item>
+		<item>Shock</item>
+		<item>Snakebite Protocol</item>
+		<item>Syncope</item>
+		<item>Therapeutic Hypothermia</item>
+		<item>Tylenol Overdose</item>
+		<item>Air vs ground Algorhithm</item>
+		<item>Dangerous patient</item>
+		<item>Death in field guideline</item>
+		<item>Hazmat Transport</item>
+		<item>Refusal of care guideline</item>
+		<item>Istat Guidelines</item>
+		<item>St Charles Anticoagulation Reversal</item>
+		<item>PEEP Reccs</item>
+		<item>Ketamine Guideline</item>
+		<item>Adult RSI-new</item>	
+	</string-array>
+	<string-array name="ob_guidelines">
+		<item>Abdominal Pain not related to pregnancy or trauma</item>
+		<item>Altered Mental Status</item>
+		<item>Vaginal Bleeding</item>
+		<item>Terbutaline Sulfate Protocol</item>
+		<item>Pregnancy Induced Hypertension</item>
+		<item>Postpartum Hemorrhage</item>
+		<item>Magnesium Sulfate</item>
+		<item>Revised High Risk OB May 2016</item>	    
+	</string-array>
+	<string-array name="pediatric_guidelines">
+		<item>Mucosal Atomizer Device</item>
+		<item>Peds Burn</item>	
+		<item>Pediatric RSI</item>
+		<item>Pediatric Sepsis, Meningitis</item>
+		<item>Pediatric Seizures</item>
+		<item>Pediatric Sedation for Intubated Patients</item>
+		<item>Pediatric Head Injury</item>
+		<item>Pediatric Fluid Maintenance</item>
+		<item>Pediatric DKA Protocol</item>
+		<item>Peds Burn</item>
+		<item>Pediatric Asthma</item>
+		<item>Pediatric Anaphylaxis</item>
+		<item>Pediatirc Blood Loss, Shock Protocol</item>		
+	</string-array>
+	<string-array name="trauma_guidelines">
+		<item>TXA Bleeding control in the trauma patient</item>
+		<item>Spinal Immobilization-Interfacility</item>
+		<item>Head Injury Protocol</item>
+		<item>General Trauma Management</item>
+		<item>Facial trauma</item>
+		<item>Eye Trauma</item>
+		<item>Burn protocol- Adult</item>
+		<item>Blood Transfusion Protocol</item>
+		<item>Amputation</item>
+		<item>Abdominal Trauma</item>
+		<item>Inclusion criteria for burn center transfer</item>
+		<item>Trauma Orthopedic</item>
+		<item>Spinal Cord Injury</item>		
+	</string-array>
+	<string-array name="procedures">
+		<item>External Jugular Cannulation</item>
+		<item>Escharotomy guideline</item>
+		<item>Needle Cricothyroidotomy</item>
+		<item>Multiple Patient Incident</item>
+		<item>Femoral ABG Procedure</item>
+		<item>Open Pneumothorax Procedure</item>
+		<item>Pelvic Fracture Stablization</item>
+		<item>BIPAP</item>
+		<item>EZ  I_O</item>
+		<item>Cricothyroidotomy</item>
+		<item>ABG Procedure</item>
+		<item>Emergent Umbilical Line Insertion</item>
+		<item>Femoral Line Cannulation</item>
+		<item>Mechanical Ventilation procedure</item>
+		<item>Foley Catheter Insertion</item>
+		<item>Tension Pneumothorax</item>
+		<item>Ride along Policy revised</item>		
 	</string-array>
 	<string-array name="medicines_list">
 		<item>
@@ -77,6 +169,153 @@
 			}
 			"
 		</item>
+		<item>
+			"
+			{
+			'title':'Nitroglycerin gtt',
+			'dose':'Dose: start 10mcg/min. Up to 200 mcg/min max',
+			'info':'titrate to effect, hold for hypotension, has rarely been associated with methemoglobinemia'
+			}
+			"
+		</item>
+		<item>
+			"
+			{
+			'title':'Lidocaine',
+			'dose':'Dose: Load: 0.7-1.4mg/kg then dose 1-4 mg/min infusion',
+			'info':'max over 24 hours 30-50 mcg/kg/min'
+			}
+			"
+		</item>
+		<item>
+			"
+			{
+			'title':'Esmolol gtt',
+			'dose':'Dose: 50-300 mcg/kg/min',
+			'info':'Primarily cardiac rate control but with some antihypertensive effects.'
+			}
+			"
+		</item>
+		<item>
+			"
+			{
+			'title':'Levophed',
+			'dose':'Dose: 0.1 to 3mcg/kg/min (1-20 mcg/min)',
+			'info':'pressor, peripheral vasoconstrictor'
+			}
+			"
+		</item>
+		<item>
+			"
+			{
+			'title':'Cardene drip',
+			'dose':'Dose: 2.5- 20 mg/ min',
+			'info':'antihypertensive medication, great for neuro injury etc.'
+			}
+			"
+		</item>
+		<item>
+			"
+			{
+			'title':'Kcentra/PCC',
+			'dose':'Only used for life threatening bleeds',
+			'info':'INR 2-4: 25IU/kg of factor IX to a max of 2500IU
+INR 4-6: 35IU/kg of factor IX to a max of 3500IU
+INR &gt; 6: 50IU/kg of factor IX to a max of 5000IU
+-          do not repeat dose
+-          round dose up to next 500IU'
+			}
+			"
+		</item>
+		<item>
+			"
+			{
+			'title':'Precedex',
+			'dose':'Dose: 0.4-1.4 mcg/kg/min',
+			'info':'central acting sleep inducer to Stage 1 sleep, no respiratory effects. 
+Load: 1mcg/kg over 10min (not needed when transitioning from another sedative)'
+			}
+			"
+		</item>
+		<item>
+			"
+			{
+			'title':'Tranexamic acid',
+			'dose':'Dose: 1 gram over 10 minutes in 100cc NS',
+			'info':'then for infusion 1 gram IV in 100cc NS to run over 8 hours at 17.2 cc/hr.'
+			}
+			"
+		</item>
+		<item>
+			"
+			{
+			'title':'Phenylephrine drip',
+			'dose':'Dose: 0.5-6 mcg/kg/min',
+			'info':'used as a pressor agent'
+			}
+			"
+		</item>
+		<item>
+			"
+			{
+			'title':'Dopamine drip',
+			'dose':'Dose: 2-50 mcg/kg/min',
+			'info':'historically common pressor agent, may ??? have some renal perfusion effects???? at low doses, expect some tachycardia with use'
+			}
+			"
+		</item>
+		<item>
+			"
+			{
+			'title':'Propofol',
+			'dose':'Dose: 5 - 80 mcg/kg/hr',
+			'info':'sedative with respiratory depressive effects, watch for hypertriglyceridemia after 3 days of use.'
+			}
+			"
+		</item>
+		<item>
+			"
+			{
+			'title':'Ativan drip',
+			'dose':'Dose: range of 1-8mg / hr',
+			'info':'MAX of 8mg/hr to prevent propylene glycol toxicity'
+			}
+			"
+		</item>
+		<item>
+			"
+			{
+			'title':'Ketamine',
+			'dose':'RSI dose Adult: 1-2mg/kg IV  RSI Peds: 0.5 - 2mg/kg IV',
+			'info':'Adult:
+
+IM dose for sedation 2-4 mg/kg
+Procedure dosing IV: 1-2 mg / kg Followed by .25-.5 mg/kg q5-10 min as needed
+For Infusion: 5-20 mcg/kg/min infusion for sedation.
+
+
+Peds:
+Procedure: .5 -2mg/kg IV May repeat .25-1mg/kg q 15 min
+Intranasal 5 mg/kg MAD
+For Infusion: 10-15mcg/kg/min 
+\u0020\\u0020\
+Ketamine is a potent sedative, amnestic, analgesic and anaesthetic agent. It has relatively little effect on the respiratory center at the doses used.'
+			}
+			"
+		</item>
+		<item>
+			"
+			{
+			'title':'Glucagon',
+			'dose':'Beta Blocker OD: 1-3 units IV ( adult dose)',
+			'info':'Indicated for Hypoglycemia and Beta Blocker Overdose
+
+Side effects: Hypotension, N/V, Hypokalemia, Rebound Hypoglycemia
+\u0020\\u0020\
+Peds Dose: .025 units/kg IV/IM/SQ  May repeat up to total of 2 doses.'
+			}
+			"
+		</item>	
 	</string-array>
 	
 </resources>

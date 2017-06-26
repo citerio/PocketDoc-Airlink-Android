@@ -11,4 +11,7 @@
 	<color name="colorBlueGloss">#2979FF</color>
 	<color name="colorToolBar">#1d1f2c</color>
 	<color name="colorButtonText">#FF4081</color>
+	<color name="colorPinkDark">#ffbcc3</color>
+	<color name="colorPinkLight">#fff5f7</color>
+	<color name="colorBlueMarine">#6994e5</color>
 </resources>

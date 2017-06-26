@@ -121,10 +121,6 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidAsset Include="Assets\fonts\unicode.palatino.ttf" />
-    <AndroidAsset Include="Assets\pdf\Aortic Dissection.pdf" />
-    <AndroidAsset Include="Assets\pdf\Asthma - Adult.pdf" />
-    <AndroidAsset Include="Assets\pdf\Anaphylaxis Adult.pdf" />
-    <AndroidAsset Include="Assets\pdf\Blood protocol.pdf" />
     <AndroidAsset Include="Assets\pdfjs\LICENSE" />
     <AndroidAsset Include="Assets\pdfjs\web\compressed.tracemonkey-pldi-09.pdf" />
     <AndroidAsset Include="Assets\pdfjs\web\cmaps\78-EUC-H.bcmap" />
@@ -401,6 +397,102 @@
     <AndroidAsset Include="Assets\pdfjs\web\locale\zh-CN\viewer.properties" />
     <AndroidAsset Include="Assets\pdfjs\web\locale\zh-TW\viewer.properties" />
     <AndroidAsset Include="Assets\pdfjs\web\locale\zu\viewer.properties" />
+    <AndroidAsset Include="Assets\pdf\Shock.pdf" />
+    <AndroidAsset Include="Assets\pdf\Snakebite Protocol.pdf" />
+    <AndroidAsset Include="Assets\pdf\Spinal Cord Injury.pdf" />
+    <AndroidAsset Include="Assets\pdf\Spinal Immobilization-Interfacility.pdf" />
+    <AndroidAsset Include="Assets\pdf\St Charles Anticoagulation Reversal.pdf" />
+    <AndroidAsset Include="Assets\pdf\Syncope.pdf" />
+    <AndroidAsset Include="Assets\pdf\Tension Pneumothorax.pdf" />
+    <AndroidAsset Include="Assets\pdf\Terbutaline Sulfate Protocol.pdf" />
+    <AndroidAsset Include="Assets\pdf\Therapeutic Hypothermia.pdf" />
+    <AndroidAsset Include="Assets\pdf\Trauma Orthopedic.pdf" />
+    <AndroidAsset Include="Assets\pdf\TXA Bleeding control in the trauma patient.pdf" />
+    <AndroidAsset Include="Assets\pdf\Tylenol Overdose.pdf" />
+    <AndroidAsset Include="Assets\pdf\Vaginal Bleeding.pdf" />
+    <AndroidAsset Include="Assets\pdf\Abdominal Pain not related to pregnancy or trauma.pdf" />
+    <AndroidAsset Include="Assets\pdf\Abdominal Trauma.pdf" />
+    <AndroidAsset Include="Assets\pdf\ABG Procedure.pdf" />
+    <AndroidAsset Include="Assets\pdf\Acute Coronary Syndrome.pdf" />
+    <AndroidAsset Include="Assets\pdf\Adult RSI-new.pdf" />
+    <AndroidAsset Include="Assets\pdf\Adult Sepsis.pdf" />
+    <AndroidAsset Include="Assets\pdf\Air vs ground Algorhithm.pdf" />
+    <AndroidAsset Include="Assets\pdf\Altered Mental Status.pdf" />
+    <AndroidAsset Include="Assets\pdf\Amputation.pdf" />
+    <AndroidAsset Include="Assets\pdf\Anaphylaxis Adult.pdf" />
+    <AndroidAsset Include="Assets\pdf\Aortic Dissection.pdf" />
+    <AndroidAsset Include="Assets\pdf\Asthma - Adult.pdf" />
+    <AndroidAsset Include="Assets\pdf\BiPAP.pdf" />
+    <AndroidAsset Include="Assets\pdf\Blood Products TXA.pdf" />
+    <AndroidAsset Include="Assets\pdf\Blood protocol.pdf" />
+    <AndroidAsset Include="Assets\pdf\Blood Transfusion Protocol.pdf" />
+    <AndroidAsset Include="Assets\pdf\Burn protocol- Adult.pdf" />
+    <AndroidAsset Include="Assets\pdf\Childbirth Abnormal Delivery.pdf" />
+    <AndroidAsset Include="Assets\pdf\Childbirth Normal Delivery.pdf" />
+    <AndroidAsset Include="Assets\pdf\Cricothyroidotomy.pdf" />
+    <AndroidAsset Include="Assets\pdf\CVA Stroke one%282%29.pdf" />
+    <AndroidAsset Include="Assets\pdf\CVA Stroke one.pdf" />
+    <AndroidAsset Include="Assets\pdf\Dangerous patient.pdf" />
+    <AndroidAsset Include="Assets\pdf\Death in field guideline.pdf" />
+    <AndroidAsset Include="Assets\pdf\ DKA adults.pdf" />
+    <AndroidAsset Include="Assets\pdf\Drowning.pdf" />
+    <AndroidAsset Include="Assets\pdf\Emergent Umbilical Line Insertion.pdf" />
+    <AndroidAsset Include="Assets\pdf\Epiglottis and croup.pdf" />
+    <AndroidAsset Include="Assets\pdf\Escharotomy guideline.pdf" />
+    <AndroidAsset Include="Assets\pdf\External Jugular Cannulation.pdf" />
+    <AndroidAsset Include="Assets\pdf\Eye Trauma.pdf" />
+    <AndroidAsset Include="Assets\pdf\EZ  I_O.pdf" />
+    <AndroidAsset Include="Assets\pdf\Facial trauma.pdf" />
+    <AndroidAsset Include="Assets\pdf\Femoral ABG Procedure .pdf" />
+    <AndroidAsset Include="Assets\pdf\Femoral Line Cannulation.pdf" />
+    <AndroidAsset Include="Assets\pdf\Foley Catheter Insertion.pdf" />
+    <AndroidAsset Include="Assets\pdf\Frostbite.pdf" />
+    <AndroidAsset Include="Assets\pdf\General Overdose.pdf" />
+    <AndroidAsset Include="Assets\pdf\General Trauma Management.pdf" />
+    <AndroidAsset Include="Assets\pdf\Hazmat Transport.pdf" />
+    <AndroidAsset Include="Assets\pdf\Head Injury Protocol.pdf" />
+    <AndroidAsset Include="Assets\pdf\Hyperkalemia protocol.pdf" />
+    <AndroidAsset Include="Assets\pdf\Hypertension not related to pregnancy.pdf" />
+    <AndroidAsset Include="Assets\pdf\Hyperthermia.pdf" />
+    <AndroidAsset Include="Assets\pdf\Hypoglycemia.pdf" />
+    <AndroidAsset Include="Assets\pdf\Hypothermia.pdf" />
+    <AndroidAsset Include="Assets\pdf\ICH.pdf" />
+    <AndroidAsset Include="Assets\pdf\Inclusion criteria for burn center transfer.pdf" />
+    <AndroidAsset Include="Assets\pdf\Insulin.pdf" />
+    <AndroidAsset Include="Assets\pdf\Istat Guidelines.pdf" />
+    <AndroidAsset Include="Assets\pdf\Ketamine Guideline.pdf" />
+    <AndroidAsset Include="Assets\pdf\Magnesium Sulfate.pdf" />
+    <AndroidAsset Include="Assets\pdf\Maternal General Guidelines.pdf" />
+    <AndroidAsset Include="Assets\pdf\Mechanical Ventilation procedure.pdf" />
+    <AndroidAsset Include="Assets\pdf\Mucosal Atomizer Device.pdf" />
+    <AndroidAsset Include="Assets\pdf\Multiple Patient Incident.pdf" />
+    <AndroidAsset Include="Assets\pdf\Narcotics and Opiates.pdf" />
+    <AndroidAsset Include="Assets\pdf\Needle Cricothyroidotomy.pdf" />
+    <AndroidAsset Include="Assets\pdf\Open Pneumothorax Procedure.pdf" />
+    <AndroidAsset Include="Assets\pdf\Oral Intubation.pdf" />
+    <AndroidAsset Include="Assets\pdf\Pediatirc Blood Loss, Shock Protocol.pdf" />
+    <AndroidAsset Include="Assets\pdf\Pediatric Anaphylaxis.pdf" />
+    <AndroidAsset Include="Assets\pdf\Pediatric Asthma.pdf" />
+    <AndroidAsset Include="Assets\pdf\Pediatric DKA Protocol.pdf" />
+    <AndroidAsset Include="Assets\pdf\Pediatric Fluid Maintenance.pdf" />
+    <AndroidAsset Include="Assets\pdf\Pediatric Head Injury.pdf" />
+    <AndroidAsset Include="Assets\pdf\Pediatric RSI.pdf" />
+    <AndroidAsset Include="Assets\pdf\Pediatric Sedation for Intubated Patients.pdf" />
+    <AndroidAsset Include="Assets\pdf\Pediatric Seizures.pdf" />
+    <AndroidAsset Include="Assets\pdf\Pediatric Sepsis, Meningitis.pdf" />
+    <AndroidAsset Include="Assets\pdf\Peds Burn.pdf" />
+    <AndroidAsset Include="Assets\pdf\PEEP Reccs.pdf" />
+    <AndroidAsset Include="Assets\pdf\Pelvic Fracture Stablization.pdf" />
+    <AndroidAsset Include="Assets\pdf\Platelets During Transport.pdf" />
+    <AndroidAsset Include="Assets\pdf\Postpartum Hemorrhage.pdf" />
+    <AndroidAsset Include="Assets\pdf\Pregnancy Induced Hypertension.pdf" />
+    <AndroidAsset Include="Assets\pdf\Refusal of care guideline.pdf" />
+    <AndroidAsset Include="Assets\pdf\Revised High Risk OB May 2016.pdf" />
+    <AndroidAsset Include="Assets\pdf\revised Preterm Labor.pdf may 2016.pdf" />
+    <AndroidAsset Include="Assets\pdf\Rhabdomyolysis.pdf" />
+    <AndroidAsset Include="Assets\pdf\Ride along Policy revised.pdf" />
+    <AndroidAsset Include="Assets\pdf\Sedation guideline.pdf" />
+    <AndroidAsset Include="Assets\pdf\Seizure  Adult.pdf" />
     <None Include="GettingStarted.Xamarin" />
     <None Include="packages.config" />
     <None Include="Resources\AboutResources.txt" />
@@ -785,6 +877,15 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidAsset Include="Assets\pdfjs\web\images\treeitem-expanded%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\box_style.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\box_style_pink.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\rounded_button.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

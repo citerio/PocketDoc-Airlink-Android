@@ -55,7 +55,7 @@ namespace Airlink
             if (type.Equals("OB"))
             {
 
-                string[] items_type = Resources.GetStringArray(Resource.Array.adult_guidelines);
+                string[] items_type = Resources.GetStringArray(Resource.Array.ob_guidelines);
                 fillPdf(items_type);
 
             }
@@ -63,7 +63,23 @@ namespace Airlink
             if (type.Equals("Pediatric"))
             {
 
-                string[] items_type = Resources.GetStringArray(Resource.Array.adult_guidelines);
+                string[] items_type = Resources.GetStringArray(Resource.Array.pediatric_guidelines);
+                fillPdf(items_type);
+
+            }
+
+            if (type.Equals("Trauma"))
+            {
+
+                string[] items_type = Resources.GetStringArray(Resource.Array.trauma_guidelines);
+                fillPdf(items_type);
+
+            }
+
+            if (type.Equals("Procedures"))
+            {
+
+                string[] items_type = Resources.GetStringArray(Resource.Array.procedures);
                 fillPdf(items_type);
 
             }
@@ -86,6 +102,7 @@ namespace Airlink
 
             }
 
+            pdf_items = pdf_items.OrderBy(s => s.Name).ToArray();
         }
 
         void OnItemClick(Object sender, PdfAdapterClickEventArgs e) {

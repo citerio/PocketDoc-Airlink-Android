@@ -101,6 +101,7 @@
         android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
         android:paddingTop="20dp"
+		android:visibility="gone"
         android:textSize="17sp"
         android:textColor="@color/colorWhite" />
 </RelativeLayout>

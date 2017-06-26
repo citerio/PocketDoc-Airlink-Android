@@ -126,7 +126,7 @@ namespace Airlink
                     JSONObject note_jobject = new JSONObject();
                     note_jobject.Put("title", title);
                     note_jobject.Put("description", description);
-                    SimpleDateFormat dateFormat = new SimpleDateFormat("dd-MM-yyyy", Locale.English);
+                    SimpleDateFormat dateFormat = new SimpleDateFormat("MM-dd-yyyy", Locale.English);
                     string date = dateFormat.Format(new Date());
                     note_jobject.Put("date", date);
 
