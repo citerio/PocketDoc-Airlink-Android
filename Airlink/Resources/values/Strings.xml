@@ -33,6 +33,7 @@
 	<string name="save">Save</string>
 	<string name="update">Update</string>
 	<string name="note_view">Note View</string>
+	<string name="medications">Medications</string>
 	<string-array name="adult_guidelines">
 		<item>Aortic Dissection</item>
 	    <item>Asthma - Adult</item>

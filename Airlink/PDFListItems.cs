@@ -43,6 +43,9 @@ namespace Airlink
 
             mRecyclerView.SetLayoutManager(mLayoutManager);
 
+            mRecyclerView.SetItemAnimator(new DefaultItemAnimator());
+            mRecyclerView.AddItemDecoration(new SimpleItemDecoration(this));
+
             string type = Intent.Extras.GetString("type");
 
             if (type.Equals("Adult") ){

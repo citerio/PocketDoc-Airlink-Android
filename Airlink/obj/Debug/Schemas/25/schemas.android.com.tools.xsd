@@ -2,7 +2,7 @@
 <xs:schema xmlns:tools="http://schemas.android.com/tools" attributeFormDefault="qualified" targetNamespace="http://schemas.android.com/tools" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v25</xs:documentation>
-    <xs:documentation>25/06/2017 10:09:37 p.m.</xs:documentation>
+    <xs:documentation>27/06/2017 12:11:27 a.m.</xs:documentation>
   </xs:annotation>
   <xs:attribute name="layout">
     <xs:annotation>
@@ -512,6 +512,7 @@
             <xs:enumeration value="@string/ideal_vt" />
             <xs:enumeration value="@string/ketamine_rsi_dose" />
             <xs:enumeration value="@string/male" />
+            <xs:enumeration value="@string/medications" />
             <xs:enumeration value="@string/note_date" />
             <xs:enumeration value="@string/note_title" />
             <xs:enumeration value="@string/note_view" />

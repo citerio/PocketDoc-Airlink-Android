@@ -36,7 +36,7 @@ namespace Airlink
             SetContentView(Resource.Layout.notes_items_list);
             Toolbar toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
             SetSupportActionBar(toolbar);
-            //SupportActionBar.Title = Intent.Extras.GetString("type");
+            SupportActionBar.Title = Resources.GetString(Resource.String.ApplicationName);
             SupportActionBar.SetDisplayHomeAsUpEnabled(true);
             SupportActionBar.SetHomeButtonEnabled(true);
 
@@ -46,7 +46,8 @@ namespace Airlink
             mLayoutManager = new LinearLayoutManager(this);
 
             mRecyclerView.SetLayoutManager(mLayoutManager);
-
+            mRecyclerView.SetItemAnimator(new DefaultItemAnimator());
+            mRecyclerView.AddItemDecoration(new SimpleItemDecoration(this));
 
             fillNotes();
 
@@ -54,7 +55,7 @@ namespace Airlink
             {
 
                 Intent note_details = new Intent(this, typeof(NoteDetails));
-                note_details.PutExtra("note_title", "Title Note Here");
+                note_details.PutExtra("note_title", "");
                 note_details.PutExtra("note_description", "");
                 note_details.PutExtra("position", 0);
                 note_details.PutExtra("save_or_update", "Save");

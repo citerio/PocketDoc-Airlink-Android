@@ -12,17 +12,11 @@
         android:background="@color/colorToolBar"
         android:minHeight="?attr/actionBarSize"
         android:theme="@style/ToolbarTheme"
-        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
-		<TextView
-            android:text="@string/ApplicationName"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:textColor="@color/colorWhite"
-            android:textSize="20sp" />
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">		
         <TextView
             android:text="@string/notes_list"
             android:layout_width="wrap_content"
+			android:textStyle="bold"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:textColor="@color/colorWhite"

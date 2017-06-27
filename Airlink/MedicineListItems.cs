@@ -31,7 +31,7 @@ namespace Airlink
             SetContentView(Resource.Layout.medicines_list);
             Toolbar toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
             SetSupportActionBar(toolbar);
-            SupportActionBar.Title = "Medicines";
+            SupportActionBar.Title = Resources.GetString(Resource.String.ApplicationName);
             SupportActionBar.SetDisplayHomeAsUpEnabled(true);
             SupportActionBar.SetHomeButtonEnabled(true);
 
@@ -40,6 +40,8 @@ namespace Airlink
             mLayoutManager = new LinearLayoutManager(this);
 
             mRecyclerView.SetLayoutManager(mLayoutManager);
+            mRecyclerView.SetItemAnimator(new DefaultItemAnimator());
+            mRecyclerView.AddItemDecoration(new SimpleItemDecoration(this));
 
             fillMedicines();
 

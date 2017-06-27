@@ -13,7 +13,8 @@
         android:background="@color/colorToolBar"
         android:minHeight="?attr/actionBarSize"
         android:theme="@style/ToolbarTheme"
-        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">        
+    </android.support.v7.widget.Toolbar>
     <TextView
         android:text="@string/note_title"
         android:id="@+id/medicine_title"
@@ -21,15 +22,25 @@
         android:layout_height="wrap_content"
         android:textColor="@color/colorBlack"
         android:gravity="center_horizontal"
+        android:padding="30dp"
         android:textSize="20sp" />
     <TextView
         android:text="@string/note_date"
         android:id="@+id/medicine_dose"
+        android:paddingTop="20dp"
+        android:background="@drawable/box_style_blue"
+        android:paddingBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack" />
     <TextView
         android:text="@string/note_title"
         android:id="@+id/medicine_info"
+        android:padding="20dp"
+        android:layout_marginTop="50dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack" />
 </LinearLayout>

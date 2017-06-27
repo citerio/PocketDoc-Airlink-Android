@@ -14,11 +14,12 @@
         android:theme="@style/ToolbarTheme"
         app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
         <TextView
-            android:text="@string/ApplicationName"
+            android:text="@string/medications"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:textColor="@color/colorWhite"
+			android:textStyle="bold"
             android:textSize="20sp" />
     </android.support.v7.widget.Toolbar>
     <android.support.v7.widget.RecyclerView

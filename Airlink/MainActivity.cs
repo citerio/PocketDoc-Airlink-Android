@@ -27,14 +27,14 @@ namespace Airlink
 		{
 			base.OnCreate(bundle);
 
-            ISharedPreferences prefs = PreferenceManager.GetDefaultSharedPreferences(this);
+            //ISharedPreferences prefs = PreferenceManager.GetDefaultSharedPreferences(this);
             
-            ISharedPreferencesEditor editor;
+            //ISharedPreferencesEditor editor;
 
-            editor = prefs.Edit();
+            //editor = prefs.Edit();
 
-            editor.Remove("notes_list");
-            editor.Apply();
+            //editor.Remove("notes_list");
+            //editor.Apply();
 
             // Set our view from the "main" layout resource
             SetContentView (Resource.Layout.Main);

@@ -37,7 +37,7 @@ namespace Airlink
             SetContentView(Resource.Layout.note_details);
             Toolbar toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
             SetSupportActionBar(toolbar);
-            //SupportActionBar.Title = Intent.Extras.GetString("type");
+            SupportActionBar.Title = Resources.GetString(Resource.String.notes_list);
             SupportActionBar.SetDisplayHomeAsUpEnabled(true);
             SupportActionBar.SetHomeButtonEnabled(true);
 
@@ -248,6 +248,14 @@ namespace Airlink
             });
 
             builder.Show();
+        }
+
+        public override bool OnOptionsItemSelected(IMenuItem item)
+        {
+            if (item.ItemId == Android.Resource.Id.Home)
+                Finish();
+
+            return base.OnOptionsItemSelected(item);
         }
     }
 }

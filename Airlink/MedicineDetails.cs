@@ -27,7 +27,7 @@ namespace Airlink
             SetContentView(Resource.Layout.medicine_details);
             Toolbar toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
             SetSupportActionBar(toolbar);
-            //SupportActionBar.Title = Intent.Extras.GetString("type");
+            SupportActionBar.Title = Resources.GetString(Resource.String.medications);
             SupportActionBar.SetDisplayHomeAsUpEnabled(true);
             SupportActionBar.SetHomeButtonEnabled(true);
 
