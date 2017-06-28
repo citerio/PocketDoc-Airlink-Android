@@ -32,12 +32,16 @@ namespace Airlink
 
             SetContentView(Resource.Layout.pdf_items_list);
             Toolbar toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
+            
             SetSupportActionBar(toolbar);
-            SupportActionBar.Title = Intent.Extras.GetString("type");
+            SupportActionBar.Title = "";
             SupportActionBar.SetDisplayHomeAsUpEnabled(true);
             SupportActionBar.SetHomeButtonEnabled(true);
 
             mRecyclerView = FindViewById<RecyclerView>(Resource.Id.pdf_items_list);
+            TextView screen_title = FindViewById<TextView>(Resource.Id.screen_title);
+
+            screen_title.Text = Intent.Extras.GetString("type");
 
             mLayoutManager = new LinearLayoutManager(this);
 

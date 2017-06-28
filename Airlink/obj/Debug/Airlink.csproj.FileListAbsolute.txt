@@ -60,8 +60,10 @@ C:\Users\Jose Ricardo\documents\visual studio 2017\Projects\Airlink\Airlink\obj\
 C:\Users\Jose Ricardo\documents\visual studio 2017\Projects\Airlink\Airlink\obj\Debug\res\drawable\box_style_pink.xml
 C:\Users\Jose Ricardo\documents\visual studio 2017\Projects\Airlink\Airlink\obj\Debug\res\drawable\rounded_button.xml
 C:\Users\Jose Ricardo\documents\visual studio 2017\Projects\Airlink\Airlink\obj\Debug\res\drawable\box_style_blue.xml
-C:\Users\Jose Ricardo\documents\visual studio 2017\Projects\Airlink\Airlink\bin\Debug\Airlink.dll.mdb
 C:\Users\Jose Ricardo\documents\visual studio 2017\Projects\Airlink\Airlink\obj\Debug\Airlink.csprojResolveAssemblyReference.cache
+C:\Users\Jose Ricardo\documents\visual studio 2017\Projects\Airlink\Airlink\obj\Debug\res\drawable\rounded_button_green.xml
+C:\Users\Jose Ricardo\documents\visual studio 2017\Projects\Airlink\Airlink\obj\Debug\res\drawable-hdpi\airlink_icon.png
+C:\Users\Jose Ricardo\documents\visual studio 2017\Projects\Airlink\Airlink\bin\Debug\Airlink.dll.mdb
 C:\Users\Jose Ricardo\documents\visual studio 2017\Projects\Airlink\Airlink\bin\Debug\Java.Interop.dll.mdb
 C:\Users\Jose Ricardo\documents\visual studio 2017\Projects\Airlink\Airlink\bin\Debug\Microsoft.CSharp.dll.mdb
 C:\Users\Jose Ricardo\documents\visual studio 2017\Projects\Airlink\Airlink\bin\Debug\Mono.Android.dll.mdb

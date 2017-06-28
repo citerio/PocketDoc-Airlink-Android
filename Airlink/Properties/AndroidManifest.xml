@@ -3,5 +3,5 @@
 	<uses-sdk android:minSdkVersion="16" />
 	<uses-permission android:name="android.permission.CALL_PHONE" />
 	<uses-permission android:name="android.permission.INTERNET" />
-	<application android:label="Airlink" android:theme="@style/AppTheme" android:icon="@drawable/Icon"></application>
+	<application android:label="Airlink" android:theme="@style/AppTheme" android:icon="@drawable/airlink_icon"></application>
 </manifest>

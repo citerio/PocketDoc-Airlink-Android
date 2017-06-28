@@ -16,6 +16,8 @@ using Android.Preferences;
 using Org.Json;
 using Java.Util;
 using Java.Text;
+using Android.Support.V4.Content.Res;
+using Android.Support.V4.Content;
 
 namespace Airlink
 {
@@ -68,7 +70,7 @@ namespace Airlink
         public void saveOrupdateNote() {
 
 
-            if (note_title_input.Equals("")) {
+            if (note_title_input.Text.Equals("")) {
 
                 setNotification("Error", "Give your note a title.");
 
@@ -146,7 +148,7 @@ namespace Airlink
 
                 }
 
-                save_update_button.Background = Resources.GetDrawable(Resource.Color.colorBlueGloss);
+                save_update_button.Background = ContextCompat.GetDrawable(this, Resource.Drawable.rounded_button_green);
                 save_update_button.Text = "Update";
                 reloadNotesList();
 
@@ -212,7 +214,7 @@ namespace Airlink
 
                 }
 
-                save_update_button.Background = Resources.GetDrawable(Resource.Color.colorBlueGloss);
+                save_update_button.Background = ContextCompat.GetDrawable(this, Resource.Drawable.rounded_button_green);
                 save_update_button.Text = "Update";
                 reloadNotesList();
                 setNotification("Updated", "Your note was updated!");

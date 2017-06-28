@@ -25,7 +25,7 @@ namespace Airlink
             SetContentView(Resource.Layout.PDFViewer);
             Toolbar toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
             SetSupportActionBar(toolbar);
-            SupportActionBar.Title = "Airlink";
+            SupportActionBar.Title = Intent.Extras.GetString("type");
             SupportActionBar.SetDisplayHomeAsUpEnabled(true);
             SupportActionBar.SetHomeButtonEnabled(true);
 

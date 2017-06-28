@@ -2,7 +2,7 @@
 <xs:schema xmlns:app="http://schemas.android.com/apk/res-auto" attributeFormDefault="qualified" targetNamespace="http://schemas.android.com/apk/res-auto" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v25</xs:documentation>
-    <xs:documentation>27/06/2017 12:11:27 a.m.</xs:documentation>
+    <xs:documentation>27/06/2017 11:01:44 p.m.</xs:documentation>
   </xs:annotation>
   <xs:attribute name="allowStacking">
     <xs:annotation>
@@ -155,6 +155,7 @@
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
             <xs:enumeration value="@drawable/abc_vector_test" />
+            <xs:enumeration value="@drawable/airlink_icon" />
             <xs:enumeration value="@drawable/box_style" />
             <xs:enumeration value="@drawable/box_style_blue" />
             <xs:enumeration value="@drawable/box_style_pink" />
@@ -177,6 +178,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/rounded_button" />
+            <xs:enumeration value="@drawable/rounded_button_green" />
             <xs:enumeration value="@drawable/toggle_female" />
             <xs:enumeration value="@drawable/toggle_male" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -451,6 +453,7 @@
             <xs:enumeration value="@string/call_helenka" />
             <xs:enumeration value="@string/call_rod" />
             <xs:enumeration value="@string/describe_note_here" />
+            <xs:enumeration value="@string/empty" />
             <xs:enumeration value="@string/etomidate_rsi_dose" />
             <xs:enumeration value="@string/female" />
             <xs:enumeration value="@string/height_in_inches" />
@@ -601,6 +604,7 @@
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
             <xs:enumeration value="@drawable/abc_vector_test" />
+            <xs:enumeration value="@drawable/airlink_icon" />
             <xs:enumeration value="@drawable/box_style" />
             <xs:enumeration value="@drawable/box_style_blue" />
             <xs:enumeration value="@drawable/box_style_pink" />
@@ -623,6 +627,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/rounded_button" />
+            <xs:enumeration value="@drawable/rounded_button_green" />
             <xs:enumeration value="@drawable/toggle_female" />
             <xs:enumeration value="@drawable/toggle_male" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -941,6 +946,7 @@
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
             <xs:enumeration value="@drawable/abc_vector_test" />
+            <xs:enumeration value="@drawable/airlink_icon" />
             <xs:enumeration value="@drawable/box_style" />
             <xs:enumeration value="@drawable/box_style_blue" />
             <xs:enumeration value="@drawable/box_style_pink" />
@@ -963,6 +969,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/rounded_button" />
+            <xs:enumeration value="@drawable/rounded_button_green" />
             <xs:enumeration value="@drawable/toggle_female" />
             <xs:enumeration value="@drawable/toggle_male" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -2083,6 +2090,7 @@
             <xs:enumeration value="@string/call_helenka" />
             <xs:enumeration value="@string/call_rod" />
             <xs:enumeration value="@string/describe_note_here" />
+            <xs:enumeration value="@string/empty" />
             <xs:enumeration value="@string/etomidate_rsi_dose" />
             <xs:enumeration value="@string/female" />
             <xs:enumeration value="@string/height_in_inches" />
@@ -2233,6 +2241,7 @@
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
             <xs:enumeration value="@drawable/abc_vector_test" />
+            <xs:enumeration value="@drawable/airlink_icon" />
             <xs:enumeration value="@drawable/box_style" />
             <xs:enumeration value="@drawable/box_style_blue" />
             <xs:enumeration value="@drawable/box_style_pink" />
@@ -2255,6 +2264,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/rounded_button" />
+            <xs:enumeration value="@drawable/rounded_button_green" />
             <xs:enumeration value="@drawable/toggle_female" />
             <xs:enumeration value="@drawable/toggle_male" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -2714,6 +2724,7 @@
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
             <xs:enumeration value="@drawable/abc_vector_test" />
+            <xs:enumeration value="@drawable/airlink_icon" />
             <xs:enumeration value="@drawable/box_style" />
             <xs:enumeration value="@drawable/box_style_blue" />
             <xs:enumeration value="@drawable/box_style_pink" />
@@ -2736,6 +2747,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/rounded_button" />
+            <xs:enumeration value="@drawable/rounded_button_green" />
             <xs:enumeration value="@drawable/toggle_female" />
             <xs:enumeration value="@drawable/toggle_male" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -3054,6 +3066,7 @@
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
             <xs:enumeration value="@drawable/abc_vector_test" />
+            <xs:enumeration value="@drawable/airlink_icon" />
             <xs:enumeration value="@drawable/box_style" />
             <xs:enumeration value="@drawable/box_style_blue" />
             <xs:enumeration value="@drawable/box_style_pink" />
@@ -3076,6 +3089,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/rounded_button" />
+            <xs:enumeration value="@drawable/rounded_button_green" />
             <xs:enumeration value="@drawable/toggle_female" />
             <xs:enumeration value="@drawable/toggle_male" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -3395,6 +3409,7 @@
             <xs:enumeration value="@string/call_helenka" />
             <xs:enumeration value="@string/call_rod" />
             <xs:enumeration value="@string/describe_note_here" />
+            <xs:enumeration value="@string/empty" />
             <xs:enumeration value="@string/etomidate_rsi_dose" />
             <xs:enumeration value="@string/female" />
             <xs:enumeration value="@string/height_in_inches" />
@@ -3545,6 +3560,7 @@
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
             <xs:enumeration value="@drawable/abc_vector_test" />
+            <xs:enumeration value="@drawable/airlink_icon" />
             <xs:enumeration value="@drawable/box_style" />
             <xs:enumeration value="@drawable/box_style_blue" />
             <xs:enumeration value="@drawable/box_style_pink" />
@@ -3567,6 +3583,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/rounded_button" />
+            <xs:enumeration value="@drawable/rounded_button_green" />
             <xs:enumeration value="@drawable/toggle_female" />
             <xs:enumeration value="@drawable/toggle_male" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -3841,6 +3858,7 @@
             <xs:enumeration value="@string/call_helenka" />
             <xs:enumeration value="@string/call_rod" />
             <xs:enumeration value="@string/describe_note_here" />
+            <xs:enumeration value="@string/empty" />
             <xs:enumeration value="@string/etomidate_rsi_dose" />
             <xs:enumeration value="@string/female" />
             <xs:enumeration value="@string/height_in_inches" />
@@ -3991,6 +4009,7 @@
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
             <xs:enumeration value="@drawable/abc_vector_test" />
+            <xs:enumeration value="@drawable/airlink_icon" />
             <xs:enumeration value="@drawable/box_style" />
             <xs:enumeration value="@drawable/box_style_blue" />
             <xs:enumeration value="@drawable/box_style_pink" />
@@ -4013,6 +4032,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/rounded_button" />
+            <xs:enumeration value="@drawable/rounded_button_green" />
             <xs:enumeration value="@drawable/toggle_female" />
             <xs:enumeration value="@drawable/toggle_male" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -4287,6 +4307,7 @@
             <xs:enumeration value="@string/call_helenka" />
             <xs:enumeration value="@string/call_rod" />
             <xs:enumeration value="@string/describe_note_here" />
+            <xs:enumeration value="@string/empty" />
             <xs:enumeration value="@string/etomidate_rsi_dose" />
             <xs:enumeration value="@string/female" />
             <xs:enumeration value="@string/height_in_inches" />
@@ -4579,6 +4600,7 @@
             <xs:enumeration value="@string/call_helenka" />
             <xs:enumeration value="@string/call_rod" />
             <xs:enumeration value="@string/describe_note_here" />
+            <xs:enumeration value="@string/empty" />
             <xs:enumeration value="@string/etomidate_rsi_dose" />
             <xs:enumeration value="@string/female" />
             <xs:enumeration value="@string/height_in_inches" />
@@ -4729,6 +4751,7 @@
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
             <xs:enumeration value="@drawable/abc_vector_test" />
+            <xs:enumeration value="@drawable/airlink_icon" />
             <xs:enumeration value="@drawable/box_style" />
             <xs:enumeration value="@drawable/box_style_blue" />
             <xs:enumeration value="@drawable/box_style_pink" />
@@ -4751,6 +4774,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/rounded_button" />
+            <xs:enumeration value="@drawable/rounded_button_green" />
             <xs:enumeration value="@drawable/toggle_female" />
             <xs:enumeration value="@drawable/toggle_male" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -5069,6 +5093,7 @@
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
             <xs:enumeration value="@drawable/abc_vector_test" />
+            <xs:enumeration value="@drawable/airlink_icon" />
             <xs:enumeration value="@drawable/box_style" />
             <xs:enumeration value="@drawable/box_style_blue" />
             <xs:enumeration value="@drawable/box_style_pink" />
@@ -5091,6 +5116,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/rounded_button" />
+            <xs:enumeration value="@drawable/rounded_button_green" />
             <xs:enumeration value="@drawable/toggle_female" />
             <xs:enumeration value="@drawable/toggle_male" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -5409,6 +5435,7 @@
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
             <xs:enumeration value="@drawable/abc_vector_test" />
+            <xs:enumeration value="@drawable/airlink_icon" />
             <xs:enumeration value="@drawable/box_style" />
             <xs:enumeration value="@drawable/box_style_blue" />
             <xs:enumeration value="@drawable/box_style_pink" />
@@ -5431,6 +5458,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/rounded_button" />
+            <xs:enumeration value="@drawable/rounded_button_green" />
             <xs:enumeration value="@drawable/toggle_female" />
             <xs:enumeration value="@drawable/toggle_male" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -5705,6 +5733,7 @@
             <xs:enumeration value="@string/call_helenka" />
             <xs:enumeration value="@string/call_rod" />
             <xs:enumeration value="@string/describe_note_here" />
+            <xs:enumeration value="@string/empty" />
             <xs:enumeration value="@string/etomidate_rsi_dose" />
             <xs:enumeration value="@string/female" />
             <xs:enumeration value="@string/height_in_inches" />
@@ -5900,6 +5929,7 @@
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
             <xs:enumeration value="@drawable/abc_vector_test" />
+            <xs:enumeration value="@drawable/airlink_icon" />
             <xs:enumeration value="@drawable/box_style" />
             <xs:enumeration value="@drawable/box_style_blue" />
             <xs:enumeration value="@drawable/box_style_pink" />
@@ -5922,6 +5952,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/rounded_button" />
+            <xs:enumeration value="@drawable/rounded_button_green" />
             <xs:enumeration value="@drawable/toggle_female" />
             <xs:enumeration value="@drawable/toggle_male" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -6240,6 +6271,7 @@
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
             <xs:enumeration value="@drawable/abc_vector_test" />
+            <xs:enumeration value="@drawable/airlink_icon" />
             <xs:enumeration value="@drawable/box_style" />
             <xs:enumeration value="@drawable/box_style_blue" />
             <xs:enumeration value="@drawable/box_style_pink" />
@@ -6262,6 +6294,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/rounded_button" />
+            <xs:enumeration value="@drawable/rounded_button_green" />
             <xs:enumeration value="@drawable/toggle_female" />
             <xs:enumeration value="@drawable/toggle_male" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -6754,6 +6787,7 @@
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
             <xs:enumeration value="@drawable/abc_vector_test" />
+            <xs:enumeration value="@drawable/airlink_icon" />
             <xs:enumeration value="@drawable/box_style" />
             <xs:enumeration value="@drawable/box_style_blue" />
             <xs:enumeration value="@drawable/box_style_pink" />
@@ -6776,6 +6810,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/rounded_button" />
+            <xs:enumeration value="@drawable/rounded_button_green" />
             <xs:enumeration value="@drawable/toggle_female" />
             <xs:enumeration value="@drawable/toggle_male" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -7050,6 +7085,7 @@
             <xs:enumeration value="@string/call_helenka" />
             <xs:enumeration value="@string/call_rod" />
             <xs:enumeration value="@string/describe_note_here" />
+            <xs:enumeration value="@string/empty" />
             <xs:enumeration value="@string/etomidate_rsi_dose" />
             <xs:enumeration value="@string/female" />
             <xs:enumeration value="@string/height_in_inches" />
@@ -7200,6 +7236,7 @@
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
             <xs:enumeration value="@drawable/abc_vector_test" />
+            <xs:enumeration value="@drawable/airlink_icon" />
             <xs:enumeration value="@drawable/box_style" />
             <xs:enumeration value="@drawable/box_style_blue" />
             <xs:enumeration value="@drawable/box_style_pink" />
@@ -7222,6 +7259,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/rounded_button" />
+            <xs:enumeration value="@drawable/rounded_button_green" />
             <xs:enumeration value="@drawable/toggle_female" />
             <xs:enumeration value="@drawable/toggle_male" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -7501,6 +7539,7 @@
             <xs:enumeration value="@color/colorBlueGloss" />
             <xs:enumeration value="@color/colorBlueMarine" />
             <xs:enumeration value="@color/colorButtonText" />
+            <xs:enumeration value="@color/colorGreen" />
             <xs:enumeration value="@color/colorGrey" />
             <xs:enumeration value="@color/colorGreyL" />
             <xs:enumeration value="@color/colorGreyL2X" />
@@ -7728,6 +7767,7 @@
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
             <xs:enumeration value="@drawable/abc_vector_test" />
+            <xs:enumeration value="@drawable/airlink_icon" />
             <xs:enumeration value="@drawable/box_style" />
             <xs:enumeration value="@drawable/box_style_blue" />
             <xs:enumeration value="@drawable/box_style_pink" />
@@ -7750,6 +7790,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/rounded_button" />
+            <xs:enumeration value="@drawable/rounded_button_green" />
             <xs:enumeration value="@drawable/toggle_female" />
             <xs:enumeration value="@drawable/toggle_male" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -8350,6 +8391,7 @@
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
             <xs:enumeration value="@drawable/abc_vector_test" />
+            <xs:enumeration value="@drawable/airlink_icon" />
             <xs:enumeration value="@drawable/box_style" />
             <xs:enumeration value="@drawable/box_style_blue" />
             <xs:enumeration value="@drawable/box_style_pink" />
@@ -8372,6 +8414,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/rounded_button" />
+            <xs:enumeration value="@drawable/rounded_button_green" />
             <xs:enumeration value="@drawable/toggle_female" />
             <xs:enumeration value="@drawable/toggle_male" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -8792,6 +8835,7 @@
             <xs:enumeration value="@color/colorBlueGloss" />
             <xs:enumeration value="@color/colorBlueMarine" />
             <xs:enumeration value="@color/colorButtonText" />
+            <xs:enumeration value="@color/colorGreen" />
             <xs:enumeration value="@color/colorGrey" />
             <xs:enumeration value="@color/colorGreyL" />
             <xs:enumeration value="@color/colorGreyL2X" />
@@ -8994,6 +9038,7 @@
             <xs:enumeration value="@string/call_helenka" />
             <xs:enumeration value="@string/call_rod" />
             <xs:enumeration value="@string/describe_note_here" />
+            <xs:enumeration value="@string/empty" />
             <xs:enumeration value="@string/etomidate_rsi_dose" />
             <xs:enumeration value="@string/female" />
             <xs:enumeration value="@string/height_in_inches" />
@@ -9990,6 +10035,7 @@
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
             <xs:enumeration value="@drawable/abc_vector_test" />
+            <xs:enumeration value="@drawable/airlink_icon" />
             <xs:enumeration value="@drawable/box_style" />
             <xs:enumeration value="@drawable/box_style_blue" />
             <xs:enumeration value="@drawable/box_style_pink" />
@@ -10012,6 +10058,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/rounded_button" />
+            <xs:enumeration value="@drawable/rounded_button_green" />
             <xs:enumeration value="@drawable/toggle_female" />
             <xs:enumeration value="@drawable/toggle_male" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -10291,6 +10338,7 @@
             <xs:enumeration value="@color/colorBlueGloss" />
             <xs:enumeration value="@color/colorBlueMarine" />
             <xs:enumeration value="@color/colorButtonText" />
+            <xs:enumeration value="@color/colorGreen" />
             <xs:enumeration value="@color/colorGrey" />
             <xs:enumeration value="@color/colorGreyL" />
             <xs:enumeration value="@color/colorGreyL2X" />
@@ -10518,6 +10566,7 @@
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
             <xs:enumeration value="@drawable/abc_vector_test" />
+            <xs:enumeration value="@drawable/airlink_icon" />
             <xs:enumeration value="@drawable/box_style" />
             <xs:enumeration value="@drawable/box_style_blue" />
             <xs:enumeration value="@drawable/box_style_pink" />
@@ -10540,6 +10589,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/rounded_button" />
+            <xs:enumeration value="@drawable/rounded_button_green" />
             <xs:enumeration value="@drawable/toggle_female" />
             <xs:enumeration value="@drawable/toggle_male" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -10819,6 +10869,7 @@
             <xs:enumeration value="@color/colorBlueGloss" />
             <xs:enumeration value="@color/colorBlueMarine" />
             <xs:enumeration value="@color/colorButtonText" />
+            <xs:enumeration value="@color/colorGreen" />
             <xs:enumeration value="@color/colorGrey" />
             <xs:enumeration value="@color/colorGreyL" />
             <xs:enumeration value="@color/colorGreyL2X" />
@@ -11065,6 +11116,7 @@
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
             <xs:enumeration value="@drawable/abc_vector_test" />
+            <xs:enumeration value="@drawable/airlink_icon" />
             <xs:enumeration value="@drawable/box_style" />
             <xs:enumeration value="@drawable/box_style_blue" />
             <xs:enumeration value="@drawable/box_style_pink" />
@@ -11087,6 +11139,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/rounded_button" />
+            <xs:enumeration value="@drawable/rounded_button_green" />
             <xs:enumeration value="@drawable/toggle_female" />
             <xs:enumeration value="@drawable/toggle_male" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
